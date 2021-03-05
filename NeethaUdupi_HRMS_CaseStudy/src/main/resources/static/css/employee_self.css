@@ -1,0 +1,123 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: rgb(171, 222, 252);
+	margin: 0%;
+}
+
+.main_container {
+	display: flex;
+	flex-direction: row;
+	margin-left:3%;
+	margin-top:3%;
+}
+
+.info_container {
+	display: flex;
+	flex-direction: column;
+	margin: 6%;
+}
+
+.info_sub {
+	display: flex;
+	flex-direction: row;
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+
+label {
+	width: 20%;
+	height: 25px;
+	text-align: left;
+	margin-left:2%;
+}
+
+input {
+	width: 25%;
+	height: 25px;
+}
+
+.gender {
+	width: 25%;
+	height: 30px;
+}
+
+.gender input {
+	height: 15px;
+	width: 15px;
+}
+
+.gender label {
+	text-align: left;
+	height: 15px;
+}
+
+.save_button {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 3%;
+}
+
+#ulDiv button {
+	float: left;
+	width: 100%;
+	border: 1px solid black;
+	outline: none;
+	background-color: inherit;
+}
+
+#ulDiv button.active {
+	border: 2px solid black;
+	border-bottom: none;
+}
+
+.contentClass {
+	display: none;
+	flex-direction: column;
+	width: 85%;
+	position: relative;
+	margin-left: 3%;
+	border: 2px solid black;
+}
+
+#ulDiv {
+	float: left;
+	display: flex;
+	flex-direction: row;
+	background-color: lightskyblue;
+	margin-left: 3%;
+}
+
+
+
+.tabsDiv {
+	margin-top:3%;
+	margin-left: 5%;
+}
+
+#tranDate{
+	width:70%;
+	background-color:rgb(171, 222, 252);
+	border:none;
+}
+
+table {
+	text-align:left;
+}
+
+#trans_table{
+	text-align:center;
+}
+
+thead {
+	background-color:lightgrey;
+}
+
+errors{
+	color:red;
+}
+
+.msg{
+	color:blue;
+}

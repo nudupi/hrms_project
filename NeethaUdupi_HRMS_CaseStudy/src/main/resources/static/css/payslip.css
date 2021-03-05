@@ -1,0 +1,113 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: rgb(171, 222, 252);
+}
+
+.main_container {
+	display: flex;
+	flex-direction: column;
+	border: 1px double black;
+	background-color: white;
+}
+
+.info_container {
+	display: flex;
+	flex-direction: column;
+	margin: 2%;
+}
+
+.comp_info {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	width: 20%;
+	margin-top:0%;
+	vertical-align:top;
+	
+}
+
+.emp_pay {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 2%;
+}
+
+.emp_info, .pay_info {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	margin-top:2%;
+}
+
+.payment_details {
+	display: flex;
+	flex-direction: row;
+	margin: 4%;
+}
+
+#emp_info_table {
+	width: 90%;
+}
+
+#pay_info_table {
+	width: 90%;
+}
+
+#emp_info_table td {
+	width: 35%;
+	
+}
+
+#pay_info_table  td {
+	width: 35%;
+	
+}
+
+#payment_details_table {
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 90%;
+}
+
+#payment_details_table thead {
+	background-color: lightskyblue;
+	text-align: center;
+	border: 1px solid black;
+}
+
+#payment_details_table tbody th:nth-child(1) {
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 30%;
+	background-color: lightgrey;
+	text-align: left;
+}
+
+#payment_details_table tbody td:nth-child(1) {
+	border: 1px solid black;
+	border-bottom: none; border-collapse : collapse;
+	width: 30%;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+#payment_details_table tbody th:nth-child(2), tbody th:nth-child(3) {
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 30%;
+	text-align: right;
+	background-color: lightgrey;
+}
+
+#payment_details_table tbody td:nth-child(2), td:nth-child(3) {
+	border: 1px solid black;
+	border-bottom: none; border-collapse : collapse;
+	width: 30%;
+	text-align: right;
+	border-collapse: collapse;
+}
+
+#logo {
+	color: lightskyblue;
+}

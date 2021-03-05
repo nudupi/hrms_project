@@ -1,0 +1,70 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: rgb(171, 222, 252);
+	margin-left: 0%;
+}
+
+.main_container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+
+
+.card_main_container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+}
+
+.card_icon {
+	color: rgb(0, 164, 242);
+}
+
+.card_container {
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	height: 200px;
+	justify-content: space-around;
+}
+
+
+.card {
+	width: 25%;
+	height: 150px;
+	margin-top: 5%;
+	background-color: whitesmoke;
+	border: 1px double black;
+	border-radius: 15%;
+	text-align: center;
+}
+
+.card_new1 {
+	width: 25%;
+	height: 150px;
+	margin-top: 5%;
+	background-color: whitesmoke;
+	border: 1px double black;
+	border-radius: 15%;
+	text-align: center;
+	margin-left:10%;
+	
+}
+
+.card_new2 {
+	width: 25%;
+	height: 150px;
+	margin-top: 5%;
+	background-color: whitesmoke;
+	border: 1px double black;
+	border-radius: 15%;
+	text-align: center;
+	margin-right:10%;
+	
+}
+

@@ -1,0 +1,71 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: lightskyblue;
+	background-image: url("/images/login_bg.jpg");
+	background-size:cover;
+}
+
+.main_container {
+	display: flex;
+	justify-content: center;
+	margin-top: 3%;
+}
+
+.form_container {
+	display: flex;
+	flex-direction: column;
+	background-color: whitesmoke;
+	border: 5px double  black;
+	border-radius:15%;
+	margin: 20%;
+	margin-top: 15%;
+}
+
+.header_image {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.image_container {
+	display: flex;
+	width: 10%;
+	flex-direction: column;
+}
+
+.login_details {
+	display: flex;
+	flex-direction: column;
+	margin: 10%;
+}
+
+.login_cred {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 5%;
+}
+
+.login_btn {
+	display: flex;
+	flex-direction: column;
+	margin-top:2%;
+	margin-bottom: 5%;
+	align-items: center;
+}
+
+.login_forgot {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 5%;
+	align-items: flex-end;
+}
+
+#submit_button {
+	width: 60%;
+	height: 30px;
+}
+
+#login_uname, #login_pwd {
+	height: 30px;
+}

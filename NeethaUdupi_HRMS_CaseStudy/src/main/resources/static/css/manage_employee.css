@@ -1,0 +1,170 @@
+@charset "ISO-8859-1";
+
+body {
+        background-color: rgb(171, 222, 252);
+        margin:0%;
+    }
+
+    .main_container {
+        display: flex;
+        flex-direction: row;
+        width:90%;
+       
+       
+    }
+
+    .header_info {
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .form_container {
+        display:flex;
+        flex-direction: column;
+        margin:3%;
+        width:90%;
+        
+        
+    }
+    
+    .info_container {
+        display:flex;
+        flex-direction: column;
+        margin:6%;
+        border:1px solid black;
+        
+    }
+
+    .info_sub {
+        display: flex;
+        flex-direction: row;
+        margin-top:4%;
+        margin-bottom:4%;
+        
+    }
+
+
+    label {
+        width:30%;
+        height:30px;
+        text-align: left;
+    }
+    
+    input {
+        width:25%;
+        height:25px;
+    }
+
+    .save_button {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+    #ulDiv button {
+        width:100%;
+        border: none;
+        background-color: inherit;
+    }
+
+    #ulDiv button.active {
+        background-color:lightgrey;
+        
+    }
+   
+    .contentClass {
+        display:flex;
+        flex-direction: column;
+        width:90%;
+        margin:10%;
+        margin-top:5%;
+    
+    }
+    
+   
+
+    #ulDiv  {
+        float:left;
+        display:flex;
+        flex-direction: row;
+        border:1px solid black;
+        background-color: lightskyblue;
+        
+    }
+    .search_empl {
+            display: flex;
+            flex-direction: column;
+            margin:3%;
+    }
+
+    .srch_area {
+            display: flex;
+            flex-direction: row;
+            margin:3%;
+    }
+    
+    .srch_area_id {
+            display: flex;
+            flex-direction: row;
+            margin:3%;
+            width:75%;
+            
+           
+    }
+    .srch_area_dept {
+            display: flex;
+            flex-direction: row;
+            margin:3%;
+            width:75%;
+           
+            
+    }
+
+        #srch_by {
+            height:30px;
+            width:25%;
+        }
+
+        #srch_emp {
+            height:30px;
+            width:60%;
+            margin-left:2%;
+        }
+        
+        
+
+        #srch_btn {
+            background-image: url(/images/search.png);
+            background-size: cover;
+            height:30px;
+            width:35px;
+            margin-left:2%;
+        }
+
+        
+        #srch_output {
+            display:flex;
+            flex-direction: column;
+            margin:3%;
+            margin-top: 1%;
+        }
+
+        table{
+            flex:95%;
+            border:1px solid black;
+            border-collapse: collapse;
+        }
+
+
+        th, td {
+            border:1px solid black;
+            border-collapse: collapse;
+        }
+  
+    #deptList{
+    	width:60%;
+    	height:25px;
+    }     
+ 
+ 

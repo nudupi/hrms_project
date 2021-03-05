@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+
+
+.user_info {
+	margin-top:2%;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	background-color: rgb(219, 219, 219);
+	color: rgb(87,188,249);
+	
+}
+.user_info_inner {
+	margin-top:2%;
+	line-height:0.5em; 
+	display:flex;
+	flex-direction:column;
+	color:black;
+}
+
+.user_prof {
+	margin:3%;
+}
+
+h4 {
+	
+	margin-top:5%;
+	
+	
+}
+
+h5{
+	margin-top:5%;
+	
+}

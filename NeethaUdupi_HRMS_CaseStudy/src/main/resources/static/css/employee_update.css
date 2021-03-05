@@ -1,0 +1,113 @@
+@charset "ISO-8859-1";
+
+body {
+        background-color: rgb(171, 222, 252);
+        margin:0%;
+}
+
+    .main_container {
+        display: flex;
+        flex-direction: row;
+       
+    }
+
+	.form_container {
+            display:flex;
+            flex-direction: column;
+            margin-top:5%;
+            
+        }
+   
+    
+    .info_container {
+        display:flex;
+        flex-direction: column;
+        margin:3%;
+        border:1px solid black;
+        border-radius:5%;
+        background-color: rgb(160,212,235);
+        
+        
+    }
+    .info_container_add {
+        display:flex;
+        flex-direction: row;
+        width:45%;
+        margin:6%;
+        margin-left:5%;
+      	border:1px solid black;
+      	border-radius:5%;
+      	background-color: rgb(160,212,235);
+        
+        
+    }
+
+    .info_sub {
+        display: flex;
+        flex-direction: row;
+        margin-top:2%;
+        margin-bottom:2%;
+        width:95%;
+        
+       
+    }
+    
+    .info_sub_add {
+        display: flex;
+        flex-direction: column;
+        margin-top:2%;
+        margin-bottom:2%;
+        
+        
+    }
+
+
+    label {
+        width:45%;
+        height:30px;
+        text-align: left;
+    }
+    
+    input {
+        width:45%;
+        height:30px;
+    }
+
+    .save_btn {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top:5%;
+            margin-bottom:5%;
+       /*     margin-left:40%;*/
+        }
+
+    .contentClass {
+        display:flex;
+        flex-direction: column;
+        width:95%;
+           
+    }
+
+ .contentClass_inner {
+        display:flex;
+        flex-direction: row;
+        width:95%;
+        margin:3%;
+           
+    }
+    
+    table{
+    margin-left:2%;
+    }
+
+ table th, table td{
+ 	text-align:left;
+ 	width:25%;
+ }
+ 
+ select{
+ margin-left:3%;
+ width:45%;
+ }
+       

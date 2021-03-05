@@ -1,0 +1,31 @@
+<div class="nav_container">
+        <div class="img_container">
+            <img src="/images/person.jpg" />
+            
+        </div>
+        <div class="logo">
+            <h2>HRMS</h2>
+        </div>
+        <div class="button_div">
+        	<button id="button_home" onClick="window.location='./mainPage'"><i class="fa fa-home"></i>Home</button>
+  
+            
+        </div>  
+            <div  class="dropdown">
+                
+                <button onClick="open_nav()" class="nav_drop_btn"><i class="fa fa-bars"></i>Menu</button>
+                <div id="nav_drop" class="nav_dropdown">
+            
+                    <a href="./employeeSelf">Personal Details</a>
+                     <a href="./employeeProf">Professional Details</a>
+                     <a href="./payslip">Payslip</a>
+                    <sec:authorize access="hasRole('ROLE_ADMIN')">
+                    	<a href="./manageEmployee">Manage Employee</a>
+                    	<a href="./register"> Register Employee</a>
+                    </sec:authorize>
+                    <a href="./logout">Logout</a>
+                    
+                </div>
+            </div>
+        
+</div>    
